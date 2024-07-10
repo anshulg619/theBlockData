@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  padding:0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+}
+
+.navbar{
+  background-color: azure;
+  max-width: 100%;
+}
+
+.navbar-expand-lg{
+  margin-left: auto !important;
+}
+
+.navbar-nav{
+  margin-left: auto !important;
+  margin-right: 20px;
+  padding-right: 20px;
+}
+
+.navbar-brand{
+  margin-left: 40px;
+  padding-left: 40px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  z-index: 1000;
+}
+
+.carousel-item{
+  max-width: 100%;
+  height: 80vh;
+}
+
+.d-block{
+  height: 80vh
+}
+
+#logo{
+  height: 8vh;
+}
+
+.flex{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  flex-direction: row;
+  margin-right: 60px;
+  margin-left: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-top: 30px;
+  padding-top:30px;
+  gap: 40px;
+}
+
+.size{
+  max-width: 50%;
+  height:80vh;
+}
+
+.para{
+  text-align: left;
+}
+
+ .row-cols-1{
+  margin-right: 60px;
+  margin-left: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+
+.card-text{
+  text-align: justify;
+}
+
+.spacing{
+  margin-top: 30px;
+  padding-top: 30px;
+  margin-right: 60px;
+  margin-left: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+ #bg{
+  background-color: rgb(29, 64, 80);
+ }
+
+
+
+ #adv{
+  text-align : left;
+  color : rgb(244, 247, 248);
+  font-size: 24px;
+ }
+
+ #footer{
+  background-image: url('backimage.jpg');
+  background-color: black;
+ }
+
+ .link{
+  text-decoration: none;
+  color: black;
+ }
+
+ #footer-text{
+  text-align: left;
+  color:black;
+ }
+
+ .img-top{
+  background-image: url('backimage.jpg');
+  background-size: auto;
+ }
+
+ .row-cols-1{
+  text-align: left;
+ }
+
+ .form-check-input{
+  border: 1px solid black !important;
+ }
+
+ .back-color{
+  background-color: blue;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  margin-right: 60px;
+  margin-left: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+  color:white;
+ }
